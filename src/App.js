@@ -1,25 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter2 from './Counter2';
+import Info2 from './Info2';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // return <Counter2 />
+  return <Info2 />
+
 }
 
 export default App;
